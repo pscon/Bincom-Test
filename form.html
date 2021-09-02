@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form</title>
+        
+        <link rel="stylesheet" href="form.css" type="text/css">
+    </head>
+    <body>
+      <div class="row">
+    <div class="col-md-12">
+      <form action="index.html" method="post">
+        <h1> Incidence Form </h1>
+        
+        <fieldset>
+          
+          <legend><span class="number">1</span> Your Basic Info</legend>
+        
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="user_name">
+        
+          <label for="email">Email:</label>
+          <input type="email" id="mail" name="user_email">
+       
+    
+        
+          <label for="Category Of Incidence">Category Of Incidence:</label>
+          <select id="Category Of Incidence" name="Category Of Incidence">
+            <optgroup label="Incidence">
+                <option value="Accident">Accident</option>
+              <option value="Fighting">Fighting</option>
+              <option value="Riot">Riot</option>
+              <option value="fire">fire</option>
+              <option value="others">others</option>
+            </optgroup>
+          
+          <label for="Incident Description">Incident Description:</label>
+          <input type="Incident Description" id="Incident Description"       name="Incident Description">
+        
+        </fieldset>
+        <fieldset>  
+        
+        
+          
+         <label for="bio">Incident Description:</label>
+          <textarea id="Description" name="user_Description"></textarea>
+        
+       
+        
+           
+          
+         </fieldset>
+       
+        <button type="submit">Submit</button>
+        
+       </form>
+        </div>
+      </div>
+      
+    </body>
+</html>
